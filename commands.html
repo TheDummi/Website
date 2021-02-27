@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="main.css" rel="stylesheet" />
+    <head>
+        <title>
+            DummiBot/commands
+        </title>
+    </head>
+    <body>
+<!--_____   _    _   __     __   __     __   _   ______    ______   _______ 
+// |  _  \ | |  | | |  \   /  | |  \   /  | |_| |  __  \  /  __  \ |__   __|
+// | | | | | |  | | | | \_/ | | | | \_/ | |  _  | |__|  | | |  | |    | |   
+// | | | | | |  | | | |\___/| | | |\___/| | | | |  __  /  | |  | |    | |   
+// | | | | | |  | | | |     | | | |     | | | | | |  \  \ | |  | |    | |   
+// | |_| | | |__| | | |     | | | |     | | | | | |__/  / | |__| |    | |    
+// |_____/ \______/ |_|     |_| |_|     |_| |_| |______/  \______/    |_|   -->
+
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5; background:  #2c2f33;" id="mySidebar">
+    <button style="background: purple; color: white;" class="w3-bar-item w3-button w3-large"  onclick="w3_close()"><center>Close &times;</center> </button>
+            <h2 style="background: purple; color: black; margin-top: 0%">
+                <center>
+                    Navigation
+                </center>
+            </h2>
+            <a href="/views/main.html#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#intro" class="w3-bar-item w3-button">Intro</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#why" class="w3-bar-item w3-button">Why</a>
+            <a href="#invite" class="w3-bar-item w3-button">Invite</a>
+            <a href="#support" class="w3-bar-item w3-button">Support</a>
+            <a href="#status" class="w3-bar-item w3-button">Status</a>
+            <h2 style="color: black; background: purple;">
+                <center>
+                    External Links
+                </center>
+            </h2>
+            <a href="https://discord.gg/AJxtuxg" class="w3-bar-item w3-button">Support Server</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=741940149633679390&scope=bot&permissions=8" class="w3-bar-item w3-button">Invite Admin</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=741940149633679390&scope=bot&permissions=2146958839" class="w3-bar-item w3-button">Invite Without admin</a>
+            <a href="#" class="w3-bar-item w3-button">Top.gg</a>
+            <a href="/views/commands.html" class="w3-bar-item w3-button">commands</a>
+            <a href="#" class="w3-bar-item w3-button">Documentation</a>
+    </div>
+    
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    
+    <h2 style="margin-top: 0%; background: purple; color: black">
+        <div>
+        <button class="w3-button w3-purple w3-xxlarge"  onclick="w3_open()">&#9776;</button>
+                <a style="padding: 10px;"><img src="https://cdn.discordapp.com/avatars/741940149633679390/968f2611119292b4b1ba0a37a8186c10.webp" style="margin-bottom:1%;" hight="40" width="40">DummiBot</a>
+                <a href="#invite" class="w3-bar-item w3-button">Invite</a>
+                <a href="#commands" class="w3-bar-item w3-button">Commands</a>
+                <a href="#documentation" class="w3-bar-item w3-button">Documentation</a>
+                <a href="#login" class="w3-bar-item w3-button">Login</a>
+        <div class="w3-container"></h1>
+    <!-- Page Content -->
+
+        <script>
+            function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+            }
+            
+            function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+            }
+            </script>
+    </body>
+        <footer style="margin-left: 15%; margin-right: 15%;">
+            <center>
+                <em>
+                    DummiBot・Not affiliated with Discord | 2020
+                </em>
+            </center>
+        </footer>
+    </html>
