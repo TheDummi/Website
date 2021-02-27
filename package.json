@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "A website for DummiBot",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDummi/Website.git"
+  },
+  "keywords": [
+    "Website",
+    "DummiBot"
+  ],
+  "author": "Dummi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDummi/Website/issues"
+  },
+  "homepage": "https://github.com/TheDummi/Website#readme"
+}
